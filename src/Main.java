@@ -13,14 +13,14 @@ public class Main {
         } catch (IllegalArgumentException e) {
             System.out.println("Błąd: " + e.getMessage());
         }
-        //
+        
         System.out.println("\nPróba ustawienia pustego ciągu znaków jako nazwy kategorii:");
         try {
             category.setName("");
         } catch (IllegalArgumentException e) {
             System.out.println("Błąd: " + e.getMessage());
         }
-        
+
         System.out.println("\nInformacje o kategorii po próbach zmian:");
         System.out.println(category.toString());
     }
